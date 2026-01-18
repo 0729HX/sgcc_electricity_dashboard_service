@@ -10,7 +10,7 @@
 ## 项目来源说明
 
 - 数据抓取脚本  
-  `DataLoading` 目录中的国网电力爬取逻辑来源于仓库地址：`https://github.com/ARC-MX/sgcc_electricity_new.git`作者此前的开源脚本项目，在此基础上对以下部分进行了改造：
+  `DataLoading` 目录中的国网电力爬取逻辑来源于仓库地址：`https://github.com/ARC-MX/sgcc_electricity_new`作者此前的开源脚本项目，在此基础上对以下部分进行了改造：
   - 将原本以文件导出为主的方式，调整为以 MySQL 落库为主；
   - 增加了「已有最近 30 天数据则只抓取 7 天并增量更新」的逻辑；
   - 补全了建库建表与字段注释逻辑，便于下游统计与可视化使用。
