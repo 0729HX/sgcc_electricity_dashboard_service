@@ -1,5 +1,5 @@
 # SGCC 电力用电监控仪表盘
-<img width="1920" height="1080" alt="image" src="https://github.com/0729HX/sgcc_electricity_dashboard_service/blob/main/%E6%95%88%E6%9E%9C.png" />
+<img width="1920" height="1080" alt="image" src="https://github.com/0729HX/sgcc_electricity_dashboard_service/blob/main/%E6%95%88%E6%9E%9C%E5%9B%BE.JPG" />
 
 
 一个面向个人/家庭/小型场景的国网电力用电数据抓取与可视化仪表盘项目。  
