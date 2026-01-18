@@ -1,4 +1,6 @@
 # SGCC 电力用电监控仪表盘
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd15db0e-aa74-434c-9dc8-25bc1a7b485d" />
+
 
 一个面向个人/家庭/小型场景的国网电力用电数据抓取与可视化仪表盘项目。  
 通过自动登录国家电网网站，定时抓取账户的用电数据，落库到 MySQL 中，并通过 Web 仪表盘以黑色玻璃拟态风格展示账户余额、最近用电情况、月度/年度统计等信息。
