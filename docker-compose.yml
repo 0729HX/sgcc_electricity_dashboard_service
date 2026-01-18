@@ -1,0 +1,26 @@
+services:
+  dataloading:
+    build:
+      context: .
+      dockerfile: DataLoading/Dockerfile
+    container_name: dataloading
+    network_mode: "host"
+    environment:
+      - SET_CONTAINER_TIMEZONE=true
+      - CONTAINER_TIMEZONE=Asia/Shanghai
+      - PYTHON_IN_DOCKER=1
+    restart: unless-stopped
+    volumes:
+      - ./:/data
+    init: true
+
+  panel:
+    build:
+      context: .
+      dockerfile: Panel/Dockerfile
+    container_name: panel
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
+    ports:
+      - "8011:8000"
